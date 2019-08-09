@@ -1,0 +1,6 @@
+The trick used is based on (define (p) (p)). This procedure
+gets stuck if the interpreter uses normal-order evaluation.
+This is because in normal-order, the interpreter will try to
+subsitute the y parameter with a (p) that acts as an infinite
+loop. On the other hand, the applicative-order will evaluate
+the first expression, find that the result is zero and stop.
