@@ -1,0 +1,10 @@
+Values of the expressions:
+1024
+65536
+65536
+
+Function definitions:
+f(n) = 2n
+g(n) = 2^n
+h(n) = 2^(2^(2^...)) [n-1 times]
+k(n) = 5n^2
