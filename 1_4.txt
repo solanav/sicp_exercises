@@ -1,0 +1,3 @@
+This procedure is used to add "a" to the absolute value of
+"b". This is archieved by substracting "a" and "b" if "b" is
+negative.
