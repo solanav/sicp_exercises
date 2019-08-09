@@ -1,0 +1,5 @@
+It won't work because when a function is called in scheme,
+the interpreter will try to evaluate all the arguments. This
+is why both special forms (cond and if) will work while they
+are outside a function but when a wrapper is created (new-if),
+they stop working as intended.
