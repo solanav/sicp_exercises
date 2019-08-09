@@ -1,0 +1,10 @@
+(define (sqr_sum x y) (+ (* x x) (* y y)))
+
+(define (lrg_sqr x y z)
+    (if (> x y)
+        (if (> y z)
+            (sqr_sum x y)
+            (sqr_sum x z))
+        (if (> x z)
+            (sqr_sum x y)
+            (sqr_sum y z))))
